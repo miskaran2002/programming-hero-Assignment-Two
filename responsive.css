@@ -1,0 +1,93 @@
+@media only screen and (min-width:200px) and (max-width:577px) {
+
+.header{
+    flex-direction: column-reverse;
+
+
+}
+
+.middle-nav{
+    display: none;
+
+}
+
+.SC{
+    display: none;
+}
+
+.nav-btn{
+    display: none;
+}
+
+.hidden-nav{
+   
+    display: block;
+
+}
+.navbar{
+    border-bottom: 1px solid orange;
+    
+}
+
+
+.left-nav{
+    margin-bottom: 8px;
+}
+
+.hero-icon img{
+    width: 97%;
+    align-items: center;
+}
+
+.header-one{
+    text-align: center;
+}
+
+.header-two{
+    text-align: center;
+}
+
+.header-three{
+    text-align: center;
+}
+
+.curri-desc{
+    font-size: 26px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.btn-con{
+    display: none;
+}
+
+
+.foot-cont{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+
+}
+
+.story-left{
+    display: none;
+}
+
+.story-right{
+    display: grid;
+    grid-template-columns: repeat(2,195px);
+    width: 40%;
+
+}
+
+.story-card-right>.right-img> img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+
+
+}
