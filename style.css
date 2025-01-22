@@ -58,6 +58,39 @@
 }
 /* nav end */
 
+
+/* marquee */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;  
+    padding: 10px;
+    position: relative;
+  }
+
+  .marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+    font-size: 25px;
+    
+    color:brown;
+  }
+
+  .kid{
+    color: magenta;
+    font-weight: bold;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
 /* header start */
 
 .header{
